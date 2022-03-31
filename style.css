@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Rock 3D', cursive;
+}
+img {
+    width: 300px;
+    height: auto;
+}
+
+body {
+  background-color: rgb(151, 226, 130) ;
+  margin: 0%; 
+}
+
+.titulo {
+    text-align: center;
+    width: 100%;
+    font-family: 'Palette Mosaic', cursive;
+    font-size: 50px;
+    color: blueviolet;
+}
+
+.escondido {
+    
+    background-color: pink;
+    text-align: center;
+    display: none;
+}
+
+.nav {
+  width: 50px;
+    height: 15px;
+
+    display: flex;
+    flex-direction: space-between;
+}
+
+li {
+    border: 2px solid black;
+    border-radius: 7px;
+    
+}    
+
+
+.btn {
+    background-color: white;
+}
+
+h2 {
+    position: absolute;
+    text-align: center;
+    width: 300px;
+
+}
+
+/* section {
+    border: 2px solid green;
+    width: 100vw;
+    height: calc(100vh - 200px)
+} */
